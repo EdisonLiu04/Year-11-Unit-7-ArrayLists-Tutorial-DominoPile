@@ -1,9 +1,6 @@
-import org.junit.Test;
 
-import java.util.ArrayList;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class DominoPileTester {
 
@@ -17,7 +14,7 @@ public class DominoPileTester {
         dominoPile = null;
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testConstructor() {
         setUp();
         assertTrue("Ensure that your constructor in the DominoPile class has been implemented correctly!", dominoPile != null);
